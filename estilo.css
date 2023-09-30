@@ -11,7 +11,7 @@ body {
   .navbar {
     display: flex;
     justify-content: space-between;
-    height: 14vh;
+    height: 16vh;
     background-color: #0f0e0e;
   }
   
@@ -122,6 +122,14 @@ body {
     margin: 10px;
   }
   
+  .spam.delet-product {
+    cursor: pointer;
+  }
+
+  .modal-container.modal-container h3.button-finalizarCompra {
+    cursor: pointer;
+  }
+
   .modal-container > div > img {
     height: 120px;
     width: 120px;
